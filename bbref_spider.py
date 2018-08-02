@@ -4,7 +4,7 @@ from bbref.items import BBrefItem
 
 class bbrefSpider(Spider):
 	teams = ['ATL','TOR','BOS','PHI','NYK','BRK','POR','OKC','UTA','MIN','DEN','CLE','IND','MIL','DET','CHI','GSW','LAC','LAL',
-				'SAC']
+				'SAC','PHO','MIA','WAS','CHO','ORL','HOU','NOP','SAS','DAL','MEM']
 	name = 'bbref_spider'
 	allowed_urls = ['https://www.basketball-reference.com/']
 	start_urls = ['https://www.basketball-reference.com/teams/%s/stats_basic_totals.html/' % i for i in teams]
