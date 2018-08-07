@@ -3,7 +3,7 @@
 class BBrefPipeline(object):
 
 	def __init__(self):
-		self.filename = 'AtlantaHawks.txt'
+		self.filename = 'bbref.txt'
 
 	def open_spider(self, spider):
 		self.file = open(self.filename, 'w')
